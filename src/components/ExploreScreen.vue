@@ -1,13 +1,16 @@
 <template>
     <div id="explore" class=" max-w-full h-[500px] pl-14 px-20 mx-auto mr-auto overflow-y-scroll grid place-items-center">
-        <div class="h-[500px] grid place-items-end pb-24">
-            <div class="font-Montserrat text-center flex flex-col gap-3" >
+        <div class="h-[500px] grid">
+            <div class="font-Montserrat text-center flex flex-col gap-3 my-auto" >
                 <h2 class="font-normal text-3xl text-white tracking-[0.8rem]">EXPLORE</h2>
                 <h2 class=" font-bold text-9xl text-white/75">BRAZIL</h2>
             </div>
         </div>
         <div class="h-[500px] grid place-items-center">
-            <div>MAPA DO BRASIL BEM BONITO AQUI</div>
+            <div class="font-Montserrat text-center flex flex-col gap-3" >
+                <h2 class="font-normal text-3xl text-white">EXPLORE</h2>
+                <h2 class=" font-bold text-9xl text-white/75">BRAZIL</h2>
+            </div>
         </div>
     </div>
 </template>

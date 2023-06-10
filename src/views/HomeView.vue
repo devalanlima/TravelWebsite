@@ -1,5 +1,7 @@
 <template>
-  <div>
-    Home
-  </div>
+  <ExploreScreen/>
 </template>
+
+<script setup>
+import ExploreScreen from '../components/ExploreScreen.vue';
+</script>

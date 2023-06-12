@@ -7,13 +7,14 @@
             </div>
         </div>
         <div class="h-[500px] grid place-items-center">
-            <div class="font-Montserrat text-center flex flex-col gap-3" >
-                <h2 class="font-normal text-3xl text-white">EXPLORE</h2>
-                <h2 class=" font-bold text-9xl text-white/75">BRAZIL</h2>
-            </div>
+            <BrazilMap class="opacity-75"/>
         </div>
     </div>
 </template>
+
+<script setup>
+import BrazilMap from './BrazilMap.Vue'
+</script>
 
 <style scoped>
 #explore {

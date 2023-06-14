@@ -3,7 +3,7 @@ import { defineStore } from "pinia";
 export const useAtualState = defineStore(
   'atualState', {
   state: () => ({
-    selectedState: ''
+    selectedState: 'RioDeJaneiro'
   }),
   getters: {
   },

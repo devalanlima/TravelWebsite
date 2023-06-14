@@ -1,83 +1,90 @@
 const touristPoints = {
   Acre: {
+    state: "Acre",
     attractions: {
       attraction1: "Rio Branco",
       description1:
-        "Explore the capital city of Acre, known for its vibrant culture and historic buildings.",
-      attraction2: "Serra do Divisor National Park",
+        "Explore Rio Branco, the capital city of Acre, and discover its rich history, including the Memorial dos Autonomistas and the Museu da Borracha.",
+      attraction2: "Parque Nacional da Serra do Divisor",
       description2:
-        "Experience the rich biodiversity of the Amazon rainforest with breathtaking waterfalls and wildlife.",
-      attraction3: "Theatro Hélio Melo",
+        "Experience the untouched wilderness of Parque Nacional da Serra do Divisor, with its dense rainforests, diverse wildlife, and stunning landscapes.",
+      attraction3: "Catedral Nossa Senhora de Nazaré",
       description3:
-        "Enjoy performances at this beautiful theater, showcasing the local arts and culture.",
+        "Visit the Catedral Nossa Senhora de Nazaré, a beautiful Catholic cathedral in Rio Branco, known for its architectural design and religious significance.",
     },
   },
   Alagoas: {
+    state:"Alagoas",
     attractions: {
-      attraction1: "Rio Branco",
+      attraction1: "Maceió",
       description1:
-        "Explore the capital city of Acre, known for its vibrant culture and historic buildings.",
-      attraction2: "Serra do Divisor National Park",
+        "Visit Maceió, the capital city of Alagoas, and enjoy its pristine beaches, crystal-clear waters, and vibrant beachfront promenade.",
+      attraction2: "Maragogi",
       description2:
-        "Experience the rich biodiversity of the Amazon rainforest with breathtaking waterfalls and wildlife.",
-      attraction3: "Theatro Hélio Melo",
+        "Discover the breathtaking natural pools of Maragogi, known as the 'Caribbean of Brazil,' and indulge in snorkeling or diving in its turquoise waters.",
+      attraction3: "São Miguel dos Milagres",
       description3:
-        "Enjoy performances at this beautiful theater, showcasing the local arts and culture.",
+        "Relax on the secluded beaches of São Miguel dos Milagres, surrounded by coconut palms and coral reefs, and savor the tranquility of this coastal paradise.",
     },
   },
   Amapa: {
+    state: "Amapá",
     attractions: {
-      attraction1: "Rio Branco",
+      attraction1: "Macapá",
       description1:
-        "Explore the capital city of Acre, known for its vibrant culture and historic buildings.",
-      attraction2: "Serra do Divisor National Park",
+        "Explore Macapá, the capital city of Amapá, and visit its iconic landmarks such as the Marco Zero monument and the Fortaleza de São José de Macapá.",
+      attraction2: "Ilha de Santana",
       description2:
-        "Experience the rich biodiversity of the Amazon rainforest with breathtaking waterfalls and wildlife.",
-      attraction3: "Theatro Hélio Melo",
+        "Take a boat trip to Ilha de Santana, an island located in the Amazon River, and discover its pristine beaches, lush rainforest, and diverse wildlife.",
+      attraction3: "Parque Zoobotânico",
       description3:
-        "Enjoy performances at this beautiful theater, showcasing the local arts and culture.",
+        "Visit the Parque Zoobotânico, a zoo and botanical garden in Macapá, home to a variety of animal species and lush vegetation from the Amazon region.",
     },
   },
   Amazonas: {
+    state: "Amazonas",
     attractions: {
-      attraction1: "Rio Branco",
+      attraction1: "Manaus",
       description1:
-        "Explore the capital city of Acre, known for its vibrant culture and historic buildings.",
-      attraction2: "Serra do Divisor National Park",
+        "Experience the vibrant city of Manaus, the capital of Amazonas, and explore its unique blend of urban development and lush rainforest.",
+      attraction2: "Meeting of the Waters",
       description2:
-        "Experience the rich biodiversity of the Amazon rainforest with breathtaking waterfalls and wildlife.",
-      attraction3: "Theatro Hélio Melo",
+        "Witness the impressive natural phenomenon known as the Meeting of the Waters, where the dark Rio Negro and the sandy-colored Rio Solimões merge to form the Amazon River.",
+      attraction3: "Amazon Rainforest",
       description3:
-        "Enjoy performances at this beautiful theater, showcasing the local arts and culture.",
+        "Embark on an unforgettable adventure into the Amazon Rainforest, discovering its incredible biodiversity, indigenous communities, and lush ecosystems.",
     },
   },
   Bahia: {
+    state: "Bahia",
     attractions: {
-      attraction1: "Rio Branco",
+      attraction1: "Salvador",
       description1:
-        "Explore the capital city of Acre, known for its vibrant culture and historic buildings.",
-      attraction2: "Serra do Divisor National Park",
+        "Discover Salvador, the vibrant capital city of Bahia, known for its rich Afro-Brazilian culture, colorful colonial architecture, and lively music and dance traditions.",
+      attraction2: "Morro de São Paulo",
       description2:
-        "Experience the rich biodiversity of the Amazon rainforest with breathtaking waterfalls and wildlife.",
-      attraction3: "Theatro Hélio Melo",
+        "Relax on the pristine beaches of Morro de São Paulo, a beautiful island getaway with crystal-clear waters, coral reefs, and lush tropical vegetation.",
+      attraction3: "Chapada Diamantina National Park",
       description3:
-        "Enjoy performances at this beautiful theater, showcasing the local arts and culture.",
+        "Explore the stunning landscapes of Chapada Diamantina National Park, featuring towering waterfalls, caves, mountains, and unique rock formations.",
     },
   },
   Ceara: {
+    state: "Ceará",
     attractions: {
-      attraction1: "Rio Branco",
+      attraction1: "Fortaleza",
       description1:
-        "Explore the capital city of Acre, known for its vibrant culture and historic buildings.",
-      attraction2: "Serra do Divisor National Park",
+        "Visit Fortaleza, the capital city of Ceará, and enjoy its gorgeous beaches, lively nightlife, and rich cultural heritage, including the historic city center.",
+      attraction2: "Jericoacoara",
       description2:
-        "Experience the rich biodiversity of the Amazon rainforest with breathtaking waterfalls and wildlife.",
-      attraction3: "Theatro Hélio Melo",
+        "Experience the natural beauty of Jericoacoara, a coastal village famous for its sandy dunes, pristine lagoons, and breathtaking sunsets.",
+      attraction3: "Canoa Quebrada",
       description3:
-        "Enjoy performances at this beautiful theater, showcasing the local arts and culture.",
+        "Relax on the enchanting beach of Canoa Quebrada, known for its red sand cliffs, warm waters, and vibrant bohemian atmosphere.",
     },
   },
   DistritoFederal: {
+    state: "Distrito Federal",
     attractions: {
       attraction1: "Brasília",
       description1:
@@ -91,6 +98,7 @@ const touristPoints = {
     },
   },
   EspiritoSanto: {
+    state: "Espírito Santo",
     attractions: {
       attraction1: "Vitória",
       description1:
@@ -104,6 +112,7 @@ const touristPoints = {
     },
   },
   Goias: {
+    state: "Goiás",
     attractions: {
       attraction1: "Goiânia",
       description1:
@@ -117,6 +126,7 @@ const touristPoints = {
     },
   },
   Maranhao: {
+    state: "Maranhão",
     attractions: {
       attraction1: "São Luís",
       description1:
@@ -130,6 +140,7 @@ const touristPoints = {
     },
   },
   MatoGrosso: {
+    state: "Mato Grosso",
     attractions: {
       attraction1: "Cuiabá",
       description1:
@@ -143,6 +154,7 @@ const touristPoints = {
     },
   },
   MatoGrossoDoSul: {
+    state: "Mato Grosso do Sul",
     attractions: {
       attraction1: "Campo Grande",
       description1:
@@ -156,6 +168,7 @@ const touristPoints = {
     },
   },
   MinasGerais: {
+    state: "Minas Gerais",
     attractions: {
       attraction1: "Belo Horizonte",
       description1:
@@ -169,6 +182,7 @@ const touristPoints = {
     },
   },
   Para: {
+    state: "Pará",
     attractions: {
       attraction1: "Belém",
       description1:
@@ -182,6 +196,7 @@ const touristPoints = {
     },
   },
   Paraiba: {
+    state: "Paraíba",
     attractions: {
       attraction1: "João Pessoa",
       description1:
@@ -195,6 +210,7 @@ const touristPoints = {
     },
   },
   Parana: {
+    state: "Paraná",
     attractions: {
       attraction1: "Curitiba",
       description1:
@@ -208,6 +224,7 @@ const touristPoints = {
     },
   },
   Pernambuco: {
+    state: "Pernambuco",
     attractions: {
       attraction1: "Recife",
       description1:
@@ -221,6 +238,7 @@ const touristPoints = {
     },
   },
   Piaui: {
+    state: "Piauí",
     attractions: {
       attraction1: "Teresina",
       description1:
@@ -234,6 +252,7 @@ const touristPoints = {
     },
   },
   RioDeJaneiro: {
+    state: "Rio de Janeiro",
     attractions: {
       attraction1: "Rio de Janeiro",
       description1:
@@ -246,7 +265,8 @@ const touristPoints = {
         "Explore the lush Tijuca National Park, the largest urban forest in the world, with beautiful hiking trails and waterfalls.",
     },
   },
-  RioGrandedoNorte: {
+  RioGrandeDoNorte: {
+    state: "Rio Grande do Norte",
     attractions: {
       attraction1: "Natal",
       description1:
@@ -260,6 +280,7 @@ const touristPoints = {
     },
   },
   RioGrandeDoSul: {
+    state: "Rio Grande do Sul",
     attractions: {
       attraction1: "Porto Alegre",
       description1:
@@ -273,6 +294,7 @@ const touristPoints = {
     },
   },
   Rondonia: {
+    state: "Rondônia",
     attractions: {
       attraction1: "Porto Velho",
       description1:
@@ -286,6 +308,7 @@ const touristPoints = {
     },
   },
   Roraima: {
+    state: "Roraima",
     attractions: {
       attraction1: "Boa Vista",
       description1:
@@ -299,6 +322,7 @@ const touristPoints = {
     },
   },
   SantaCatarina: {
+    state: "Santa Catarina",
     attractions: {
       attraction1: "Florianópolis",
       description1:
@@ -312,6 +336,7 @@ const touristPoints = {
     },
   },
   SaoPaulo: {
+    state: "São Paulo",
     attractions: {
       attraction1: "São Paulo",
       description1:
@@ -325,6 +350,7 @@ const touristPoints = {
     },
   },
   Sergipe: {
+    state: "Sergipe",
     attractions: {
       attraction1: "Aracaju",
       description1:
@@ -338,6 +364,7 @@ const touristPoints = {
     },
   },
   Tocantins: {
+    state: "Tocantins",
     attractions: {
       attraction1: "Palmas",
       description1:
@@ -352,4 +379,4 @@ const touristPoints = {
   },
 };
 
-export default touristPoints
+export default touristPoints;

@@ -259,6 +259,7 @@
 
 <script setup>
 import { ref, watch } from 'vue'
+
 const selectedState = ref('')
 
 const selected = (event) => {
@@ -279,84 +280,111 @@ const selected = (event) => {
     switch (estado.id) {
         case 'state_ac':
             selectedState.value = 'Acre'
+            atualState.selectedBackground ='/backgroundStates/Acre.jpg'
             break;
         case 'state_al':
             selectedState.value = 'Alagoas'
+            atualState.selectedBackground ='/backgroundStates/Alagoas.jpg'
             break;
         case 'state_ap':
             selectedState.value = 'Amapa'
+            atualState.selectedBackground ='/backgroundStates/Amapa.jpg'
             break;
         case 'state_am':
             selectedState.value = 'Amazonas'
+            atualState.selectedBackground ='/backgroundStates/Amazonas.jpg'
             break;
         case 'state_ba':
             selectedState.value = 'Bahia'
+            atualState.selectedBackground ='/backgroundStates/Bahia.jpg'
             break;
         case 'state_ce':
             selectedState.value = 'Ceara'
+            atualState.selectedBackground ='/backgroundStates/Ceara.jpg'
             break;
         case 'state_df':
             selectedState.value = 'DistritoFederal'
+            atualState.selectedBackground ='/backgroundStates/DistritoFederal.jpg'
             break;
         case 'state_es':
             selectedState.value = 'EspiritoSanto'
+            atualState.selectedBackground ='/backgroundStates/EspiritoSanto.jpg'
             break;
         case 'state_go':
             selectedState.value = 'Goias'
+            atualState.selectedBackground ='/backgroundStates/Goias.jpg'
             break;
         case 'state_ma':
             selectedState.value = 'Maranhao'
+            atualState.selectedBackground ='/backgroundStates/Maranhao.jpg'
             break;
         case 'state_mt':
             selectedState.value = 'MatoGrosso'
+            atualState.selectedBackground ='/backgroundStates/MatoGrosso.jpg'
             break;
         case 'state_ms':
             selectedState.value = 'MatoGrossoDoSul'
+            atualState.selectedBackground ='/backgroundStates/MatoGrossoDoSul.jpg'
             break;
         case 'state_mg':
             selectedState.value = 'MinasGerais'
+            atualState.selectedBackground ='/backgroundStates/MinasGerais.jpg'
             break;
         case 'state_pa':
             selectedState.value = 'Para'
+            atualState.selectedBackground ='/backgroundStates/Para.jpg'
             break;
         case 'state_pb':
             selectedState.value = 'Paraiba'
+            atualState.selectedBackground ='/backgroundStates/Paraiba.jpg'
             break;
         case 'state_pr':
             selectedState.value = 'Parana'
+            atualState.selectedBackground ='/backgroundStates/Parana.jpg'
             break;
         case 'state_pe':
             selectedState.value = 'Pernambuco'
+            atualState.selectedBackground ='/backgroundStates/Pernambuco.jpg'
             break;
         case 'state_pi':
             selectedState.value = 'Piaui'
+            atualState.selectedBackground ='/backgroundStates/Piaui.jpg'
             break;
         case 'state_rj':
             selectedState.value = 'RioDeJaneiro'
+            atualState.selectedBackground ='/backgroundStates/RioDeJaneiro.jpg'
             break;
         case 'state_rn':
             selectedState.value = 'RioGrandeDoNorte'
+            atualState.selectedBackground ='/backgroundStates/RioGrandeDoNorte.jpg'
             break;
         case 'state_rs':
             selectedState.value = 'RioGrandeDoSul'
+            atualState.selectedBackground ='/backgroundStates/RioGrandeDoSul.jpg'
             break;
         case 'state_ro':
             selectedState.value = 'Rondonia'
+            atualState.selectedBackground ='/backgroundStates/Rondonia.jpg'
             break;
         case 'state_rr':
             selectedState.value = 'Roraima'
+            atualState.selectedBackground ='/backgroundStates/Roraima.jpg'
             break;
         case 'state_sc':
             selectedState.value = 'SantaCatarina'
+            atualState.selectedBackground ='/backgroundStates/SantaCatarina.jpg'
             break;
         case 'state_sp':
             selectedState.value = 'SaoPaulo'
+            atualState.selectedBackground ='/backgroundStates/SaoPaulo.jpg'
             break;
         case 'state_se':
             selectedState.value = 'Sergipe'
+            atualState.selectedBackground ='/backgroundStates/Sergipe.jpg'
             break;
         case 'state_to':
             selectedState.value = 'Tocantins'
+            atualState.selectedBackground ='/backgroundStates/Tocantins.jpg'
             break;
         default:
             break;

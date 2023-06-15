@@ -1,11 +1,43 @@
 <template>
     <div class="grid grid-rows-3 grid-cols-4 gap-5 place-items-center w-full h-[730px] px-10">
-        <VerticalBanner class="row-span-2" />
-        <VerticalBanner class="row-span-2" />
-        <VerticalBanner class="row-span-2" />
-        <VerticalBanner class="row-span-2" />
-        <HorizontalBanner class="col-span-2" />
-        <HorizontalBanner class="col-span-2" />
+        <VerticalBanner 
+        class="row-span-2" 
+        :title="'Rio de Janeiro'" 
+        :local="'Cristo Redentor'" 
+        :picture="'/packagesImages/Rio_de_Janeiro.jpg'"
+        :price="'300.00'"
+        />
+        <VerticalBanner 
+        class="row-span-2" 
+        :title="'Rio Grande do Sul'" 
+        :local="'Gramado'" 
+        :picture="'/packagesImages/Gramado.jpg'"
+        :price="'250.00'"
+        />
+        <VerticalBanner 
+        class="row-span-2" 
+        :title="'Bahia'" 
+        :local="'Salvador'" 
+        :picture="'/packagesImages/Salvador.jpg'"
+        :price="'250.00'"
+        />
+        <VerticalBanner 
+        class="row-span-2" 
+        :title="'Pará'" 
+        :local="'Ilha de Marajó'" 
+        :picture="'/packagesImages/Ilha_de_marajo.jpg'"
+        :price="'300.00'"
+        />
+        <HorizontalBanner class="col-span-2"
+        :title="'Minas Gerais'" 
+        :local="'Serra da Canastra'" 
+        :price="'200.00'"
+        />
+        <HorizontalBanner class="col-span-2" 
+        :title="'Amazonas'" 
+        :local="'Manaus'" 
+        :price="'200.00'"
+        />
     </div>
 </template>
 

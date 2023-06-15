@@ -12,15 +12,15 @@ import DestinationCard from '../components/DestinationCard.vue';
 import ExploreScreen from '../components/ExploreScreen.vue';
 import touristPoints from '../services/TouristPoints'
 import { useAtualState } from '../stores/AtualState'
-import { ref, watch} from 'vue'
+import { ref, watch } from 'vue'
 const atualState = useAtualState()
-const attraction1 = ref('')
-const attraction2 = ref('')
-const attraction3 = ref('')
-const description1 = ref('')
-const description2 = ref('')
-const description3 = ref('')
-watch(()=> atualState.selectedState, (newValue, oldValue)=>{
+const attraction1 = ref(touristPoints.Amazonas.attractions.attraction1)
+const attraction2 = ref(touristPoints.Amazonas.attractions.attraction2)
+const attraction3 = ref(touristPoints.Amazonas.attractions.attraction3)
+const description1 = ref(touristPoints.Amazonas.attractions.description1)
+const description2 = ref(touristPoints.Amazonas.attractions.description2)
+const description3 = ref(touristPoints.Amazonas.attractions.description3)
+watch(() => atualState.selectedState, (newValue) => {
   attraction1.value = touristPoints[`${newValue}`].attractions.attraction1
   attraction2.value = touristPoints[`${newValue}`].attractions.attraction2
   attraction3.value = touristPoints[`${newValue}`].attractions.attraction3

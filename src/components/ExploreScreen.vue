@@ -16,7 +16,7 @@
 <script setup>
 import { ref, watch } from 'vue'
 import BrazilMap from './BrazilMap.vue'
-import touristPoints from '../services/TouristPoints';
+import touristPoints from '../services/touristPoints';
 import { useAtualState } from '../stores/AtualState';
 
 const atualState = useAtualState()

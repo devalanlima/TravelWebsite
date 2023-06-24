@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-rows-3 grid-cols-4 gap-5 place-items-center w-full h-[730px] px-10">
+    <div class="flex justify-center flex-wrap xl:grid sm:grid-rows-3 sm:grid-cols-4 gap-5 place-items-center w-full h-[730px] px-10 pl-20">
         <VerticalBanner 
         class="row-span-2" 
         :title="'Rio de Janeiro'" 

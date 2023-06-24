@@ -10,7 +10,7 @@
                 </ul>
             </div>
             <div class="flex flex-col gap-2">
-                <div class="flex justify-between gap-10">
+                <div class="flex justify-between gap-2 sm:gap-10">
                     <div class="flex flex-col ">
                         <p class="font-medium text-sm text-justify">From</p>
                         <p class="text-2xl font-bold flex items-center gap-2"><span class="text-lg">$</span>{{ props.price }}</p>

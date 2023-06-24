@@ -10,7 +10,7 @@
 <script setup>
 import DestinationCard from '../components/DestinationCard.vue';
 import ExploreScreen from '../components/ExploreScreen.vue';
-import touristPoints from '../services/TouristPoints'
+import touristPoints from '../services/touristPoints'
 import { useAtualState } from '../stores/AtualState'
 import { ref, watch } from 'vue'
 const atualState = useAtualState()

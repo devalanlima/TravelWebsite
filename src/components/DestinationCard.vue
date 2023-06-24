@@ -20,7 +20,7 @@ const props = defineProps({
     description: { type: String, default: 'Loading...' }
 })
 
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 const isClicked = ref(false)
 const readMore = () => {
@@ -30,4 +30,10 @@ const readMore = () => {
         isClicked.value = false
     }
 }
+
+import { useAtualState } from '../stores/AtualState'
+const atualState = useAtualState()
+watch(()=>atualState.selectedState, ()=>{
+    isClicked.value = false
+})
 </script>

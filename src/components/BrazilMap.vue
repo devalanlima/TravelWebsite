@@ -1,7 +1,7 @@
 <template>
-    <svg id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="460" height="465"
+    <svg :style="brazilMap" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="460" height="465"
         style="display: inline;">
-
+        
         <g class="model-white" @mousedown="selected">
 
             <desc>Brasil</desc>
@@ -258,7 +258,7 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue'
+import { computed, ref, watch, onMounted } from 'vue'
 
 const selectedState = ref('')
 
@@ -396,6 +396,34 @@ const atualState = useAtualState()
 watch(selectedState, () => {
     atualState.selectedState = selectedState.value
 })
+
+import { useWindowSize } from '@vueuse/core'
+const { width } = useWindowSize()
+
+const scaleMap = ref('1')
+watch(width, ()=>{
+    if (width.value < 640) {
+        scaleMap.value = '.7'
+    } else if(width.value < 768) {
+        scaleMap.value = '.85'
+    } else {
+        scaleMap.value = '1'
+    }
+})
+
+onMounted(()=>{
+    if (width.value < 640) {
+        scaleMap.value = '.7'
+    } else if(width.value < 768) {
+        scaleMap.value = '.85'
+    } else {
+        scaleMap.value = '1'
+    }
+})
+
+const brazilMap = computed(() => ({
+    scale: `${scaleMap.value}`
+}))
 </script>
 
 <style scoped>
@@ -462,4 +490,5 @@ watch(selectedState, () => {
 #map .state.hover .icon_state {
     fill: #c7c7c7;
 }
+
 </style>

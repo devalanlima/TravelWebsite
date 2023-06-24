@@ -9,8 +9,8 @@ import DinamicBackground from './components/DinamicBackground.vue';
   <header>
     <NavBar/>
   </header>
-  <main class="max-w-screen-2xl sm:px-10 mx-auto h-[730px] mt-10  relative">
-    <SocialMedia class="absolute bottom-52"/> 
+  <main class="max-w-screen-2xl sm:px-10 mx-auto h-[730px] mt-10 relative">
+    <SocialMedia class="absolute ml-10 bottom-52"/> 
     <RouterView />
   </main>
   <DinamicBackground class="absolute left-0 top-0 -z-50"/>

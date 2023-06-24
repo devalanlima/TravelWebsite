@@ -3,7 +3,7 @@ import { defineStore } from "pinia";
 export const useAtualState = defineStore(
   'atualState', {
   state: () => ({
-    selectedState: 'RioDeJaneiro',
+    selectedState: 'Amazonas',
     selectedBackground: '/backgroundStates/Amazonas.jpg',
   }),
   getters: {

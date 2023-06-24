@@ -1,6 +1,6 @@
 <template>
     <div id="explore" class="max-w-full h-[500px] sm:pl-14 sm:px-20 mx-auto overflow-x-hidden mr-auto overflow-y-scroll grid place-items-center">
-        <div class="h-[500px] grid place-items-center">
+        <div class="h-[500px] grid place-items-center max-[400px]:-ml-10">
             <div class="font-Montserrat text-center flex flex-col gap-3 my-auto">
                 <h2 class="font-normal text-lg sm:text-3xl text-white tracking-[0.8rem]">EXPLORE</h2>
                 <h2 class="font-bold text-7xl sm:text-9xl text-white/75">BRAZIL</h2>
@@ -8,7 +8,7 @@
         </div>
         <div class="grid place-items-center relative">
             <h3 class="absolute font-Montserrat w-[210px] text-sm bottom-[145px] left-20 sm:text-xl sm:left-0 sm:bottom-32  md:bottom-28">{{ stateName }}</h3>
-            <BrazilMap class="opacity-75 select-none max-w-[465px]" />
+            <BrazilMap class="opacity-75 select-none max-w-[465px] max-[400px]:-ml-10" />
         </div>
     </div>
 </template>

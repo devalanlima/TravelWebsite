@@ -1,6 +1,11 @@
 <template>
-  <nav class="flex items-center justify-around sm:justify-between max-w-screen-2xl mx-auto sm:px-10 sm:pt-10">
-    <h1 class="w-20 sm:w-fit sm:block"><img src="/logo_equator.svg" alt="Equator logo"></h1>
+  <nav class="flex items-center justify-around sm:justify-between max-w-screen-2xl mx-auto sm:px-10 pt-5 sm:pt-10">
+    <h1 class="w-20 sm:w-fit sm:block">
+      <picture>
+          <source media="(max-width:780px)" srcset="/logo_equator_reduce.svg" alt="Equator logo">
+          <img src="/logo_equator.svg" alt="Equator log">
+      </picture>
+    </h1>
     <ul class="flex sm:flex-row sm:items-center justify-center gap-4 sm:gap-10 md:gap-16 font-Montserrat text-sm sm:text-lg font-semibold">
       <li class="group">
         <RouterLink to="/"

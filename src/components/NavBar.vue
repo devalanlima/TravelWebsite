@@ -1,6 +1,7 @@
 <template>
   <nav class="flex items-center justify-around sm:justify-between max-w-screen-2xl mx-auto sm:px-10 pt-5 sm:pt-10">
-    <h1 class="w-20 sm:w-fit sm:block">
+    <h1 class="w-fit">
+      <span class="sr-only">Equator</span>
       <picture>
           <source media="(max-width:780px)" srcset="/logo_equator_reduce.svg" alt="Equator logo">
           <img src="/logo_equator.svg" alt="Equator log">
@@ -23,7 +24,7 @@
           About us </RouterLink>
       </li>
     </ul>
-    <button class="h-7 w-[34px] flex justify-end group sm:ml-3 md:ml-24">
+    <button class="h-7 w-[34px] flex justify-end group sm:ml-3 md:ml-24" title="Account Settings">
       <div
         class="transition-all after:transition-all relative w-[30px] h-[3px] bg-white rounded-full before:rounded-full before:w-[30px] before:h-[3px] before:block before:absolute before:top-[10px] before:right-0 before:bg-white after:w-[20px] after:h-[3px] after:block after:absolute after:top-[20px] after:bg-white after:right-0 after:rounded-full group-hover:w-[20px] group-hover:after:w-[30px]">
       </div>

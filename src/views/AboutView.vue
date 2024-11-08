@@ -18,7 +18,7 @@
     <p>
       Thank you for visiting my portfolio website, and I hope you enjoy browsing through my projects and getting a glimpse
       of my design capabilities. If you have any questions or would like to discuss potential collaborations, please feel
-      free to reach out to me on <a  class="font-bold text-neutral-300 hover:text-white" href="#">www.alanlima.dev</a>.
+      free to reach out to me on <a  class="font-bold text-neutral-300 hover:text-white" href="https://devalanlima.github.io/portfolio/">devalanlima.github.io/portfolio/</a>.
     </p>
   </div>
 </template>
